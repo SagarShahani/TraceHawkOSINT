@@ -1,6 +1,6 @@
 # 🦅 TraceHawkOSINT
 
-> A powerful and beginner-friendly Open Source Intelligence (OSINT) toolkit written in Python — developed by **Sagar Shahani**.
+A powerful and beginner-friendly Open Source Intelligence (OSINT) toolkit written in Python — developed by **Sagar Shahani**.
 
 TraceHawkOSINT allows investigators, cybersecurity students, and enthusiasts to gather publicly available data on usernames, emails, domains, and IP addresses. It generates a comprehensive PDF report with the results.
 
@@ -8,13 +8,13 @@ TraceHawkOSINT allows investigators, cybersecurity students, and enthusiasts to 
 
 ## 📌 Features
 
-- 🔍 **Username Recon** — Checks multiple social platforms
-- 📧 **Email Verification** — Disposable, risky, breached status
-- 🌐 **Domain Lookup** — WHOIS + DNS (A, MX, TXT records)
-- 📡 **IP Geolocation** — ISP, ASN, City, Country
-- 🧾 **PDF Report** — Clean, auto-generated PDF reports
-- 📁 **Auto-Saves to `/reports/` folder**
-- 🚀 Supports `--all` mode for full recon in one go
+- 🔍 **Username Recon** — Checks multiple social platforms  
+- 📧 **Email Verification** — Disposable, risky, breached status  
+- 🌐 **Domain Lookup** — WHOIS + DNS (A, MX, TXT records)  
+- 📡 **IP Geolocation** — ISP, ASN, City, Country  
+- 🧾 **PDF Report** — Clean, auto-generated PDF reports  
+- 📁 **Auto-Saves to** `/reports/` folder  
+- 🚀 **Supports `--all` mode** for full recon in one go  
 
 ---
 
@@ -35,14 +35,3 @@ pip install -r requirements.txt
 
 Usage
 python3 main.py --all --username <username> --email <email> --domain <domain> --ip <ip> --report <report_name.pdf>
-
-
-All generated reports are saved automatically to the /reports/ folder.
-
----
-
-✅ Just make sure everything is inside triple backticks ```bash for command blocks, so GitHub formats it correctly.
-
-Let me know once pasted and saved, I’ll guide you to commit and push it.
-
-
