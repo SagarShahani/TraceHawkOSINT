@@ -1,0 +1,8 @@
+requests
+whois
+dnspython
+ipinfo
+fpdf
+pyfiglet
+termcolor
+
